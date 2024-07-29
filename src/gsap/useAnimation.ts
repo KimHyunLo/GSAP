@@ -229,7 +229,6 @@ function cardListSlide() {
           delay: (index % 3) * 0.05,
         });
       },
-      markers: true,
     });
   });
 }
