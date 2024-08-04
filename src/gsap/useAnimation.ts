@@ -239,7 +239,7 @@ function listBoxHover() {
 
   return gsap.utils.toArray("#con5 .listBox li").forEach((selector, index) => {
     (selector as HTMLElement).addEventListener("mouseover", () => {
-      img.src = `src/assets/img${index}.jpg`;
+      img.src = `/assets/img${index}.jpg`;
       img.alt = `img${index}`;
 
       gsap.set(imgBox, { scale: 0, opacity: 0, duration: 0.3 });
